@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.bfil"
+		module="scalescrape_2.11"
+		revision="0.2.0-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150325093916"/>
+	<dependencies>
+		<module organisation="com.bfil" name="scalext_2.11">
+			<revision name="0.2.0-SNAPSHOT" status="integration" pubdate="20150321205024" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.b-fil.com" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2992" time="0" location="/Users/atognolo/.ivy2/cache/com.bfil/scalext_2.11/ivy-0.2.0-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="http://nexus.b-fil.com/nexus/content/repositories/snapshots/com/bfil/scalext_2.11/0.2.0-SNAPSHOT/scalext_2.11-0.2.0-SNAPSHOT.pom"/>
+				<caller organisation="com.bfil" name="scalescrape_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.2.0-SNAPSHOT" rev-constraint-default="0.2.0-SNAPSHOT" rev-constraint-dynamic="0.2.0-SNAPSHOT" callerrev="0.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalext_2.11" type="jar" ext="jar" status="no" details="" size="78041" time="0" location="/Users/atognolo/.ivy2/cache/com.bfil/scalext_2.11/jars/scalext_2.11-0.2.0-SNAPSHOT.jar">
+						<origin-location is-local="false" location="http://nexus.b-fil.com/nexus/content/repositories/snapshots/com/bfil/scalext_2.11/0.2.0-SNAPSHOT/scalext_2.11-0.2.0-SNAPSHOT.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.9" status="release" pubdate="20150120041810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/atognolo/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.9/akka-actor_2.11-2.3.9.pom"/>
+				<caller organisation="com.bfil" name="scalext_2.11" conf="default, compile, runtime, master" rev="2.3.9" rev-constraint-default="2.3.9" rev-constraint-dynamic="2.3.9" callerrev="0.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2571077" time="0" location="/Users/atognolo/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.9/akka-actor_2.11-2.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502115416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2752" time="0" location="/Users/atognolo/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.9"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/Users/atognolo/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scoverage" name="scalac-scoverage-plugin_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150123231719" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3791" time="0" location="/Users/atognolo/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.11/1.0.4/scalac-scoverage-plugin_2.11-1.0.4.pom"/>
+				<caller organisation="com.bfil" name="scalescrape_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalac-scoverage-plugin_2.11" type="jar" ext="jar" status="no" details="" size="232916" time="0" location="/Users/atognolo/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.11/1.0.4/scalac-scoverage-plugin_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.1" status="release" pubdate="20140416062108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/Users/atognolo/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
+				<caller organisation="org.scoverage" name="scalac-scoverage-plugin_2.11" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.4"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="655685" time="0" location="/Users/atognolo/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scoverage" name="scalac-scoverage-runtime_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150123231704" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2826" time="0" location="/Users/atognolo/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-runtime_2.11/1.0.4/scalac-scoverage-runtime_2.11-1.0.4.pom"/>
+				<caller organisation="com.bfil" name="scalescrape_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalac-scoverage-runtime_2.11" type="jar" ext="jar" status="no" details="" size="7322" time="0" location="/Users/atognolo/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-runtime_2.11/1.0.4/scalac-scoverage-runtime_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.4" status="release" pubdate="20141023133451" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/atognolo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.4/scala-library-2.11.4.pom"/>
+				<evicted-by rev="2.11.6"/>
+				<caller organisation="org.scoverage" name="scalac-scoverage-plugin_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="org.scoverage" name="scalac-scoverage-runtime_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.6" status="release" pubdate="20150225220105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/atognolo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom"/>
+				<caller organisation="org.scoverage" name="scalac-scoverage-plugin_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<caller organisation="com.bfil" name="scalext_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="0.2.0-SNAPSHOT"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.9"/>
+				<caller organisation="com.bfil" name="scalescrape_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="0.2.0-SNAPSHOT"/>
+				<caller organisation="org.scoverage" name="scalac-scoverage-runtime_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5564007" time="0" location="/Users/atognolo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.6"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.6"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.raidenjpa" name="raidenjpa-core">
+			<revision name="0.0.5-SNAPSHOT" status="integration" pubdate="20150322194341" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="4570" time="0" location="/Users/atognolo/.ivy2/cache/org.raidenjpa/raidenjpa-core/ivy-0.0.5-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/org/raidenjpa/raidenjpa-core/0.0.5-SNAPSHOT/raidenjpa-core-0.0.5-20150322.224331-5.pom"/>
+				<caller organisation="com.bfil" name="scalescrape_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.5-SNAPSHOT" rev-constraint-default="0.0.5-SNAPSHOT" rev-constraint-dynamic="0.0.5-SNAPSHOT" callerrev="0.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="raidenjpa-core" type="jar" ext="jar" status="no" details="" size="671458" time="0" location="/Users/atognolo/.ivy2/cache/org.raidenjpa/raidenjpa-core/jars/raidenjpa-core-0.0.5-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/org/raidenjpa/raidenjpa-core/0.0.5-SNAPSHOT/raidenjpa-core-0.0.5-20150322.224331-5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080414220924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/Users/atognolo/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.raidenjpa" name="raidenjpa-core" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/Users/atognolo/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hsqldb" name="hsqldb">
+			<revision name="2.3.0" status="release" pubdate="20130718180616" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hsqldb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="HSQLDB License, a BSD open source license" url="http://hsqldb.org/web/hsqlLicense.html"/>
+				<metadata-artifact status="no" details="" size="2376" time="0" location="/Users/atognolo/.ivy2/cache/org.hsqldb/hsqldb/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.0/hsqldb-2.3.0.pom"/>
+				<caller organisation="org.raidenjpa" name="raidenjpa-core" conf="default, compile, runtime, master" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hsqldb" type="jar" ext="jar" status="no" details="" size="1466946" time="0" location="/Users/atognolo/.ivy2/cache/org.hsqldb/hsqldb/jars/hsqldb-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.0/hsqldb-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-entitymanager">
+			<revision name="4.2.3.Final" status="release" pubdate="20130703122649" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7922" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate/hibernate-entitymanager/ivy-4.2.3.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.3.Final/hibernate-entitymanager-4.2.3.Final.pom"/>
+				<caller organisation="org.raidenjpa" name="raidenjpa-core" conf="default, compile, runtime, master" rev="4.2.3.Final" rev-constraint-default="4.2.3.Final" rev-constraint-dynamic="4.2.3.Final" callerrev="0.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-entitymanager" type="jar" ext="jar" status="no" details="" size="484713" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.2.3.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.3.Final/hibernate-entitymanager-4.2.3.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-core">
+			<revision name="4.2.3.Final" status="release" pubdate="20130703122636" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="8283" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate/hibernate-core/ivy-4.2.3.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.3.Final/hibernate-core-4.2.3.Final.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="4.2.3.Final" rev-constraint-default="4.2.3.Final" rev-constraint-dynamic="4.2.3.Final" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="hibernate-core" type="jar" ext="jar" status="no" details="" size="4622492" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.2.3.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.3.Final/hibernate-core-4.2.3.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="antlr" name="antlr">
+			<revision name="2.7.7" status="release" pubdate="20070113042839" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD License" url="http://www.antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2439" time="0" location="/Users/atognolo/.ivy2/cache/antlr/antlr/ivy-2.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="2.7.7" rev-constraint-default="2.7.7" rev-constraint-dynamic="2.7.7" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="antlr" type="jar" ext="jar" status="no" details="" size="445288" time="0" location="/Users/atognolo/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.15.0-GA" status="release" pubdate="20110711121935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2972" time="0" location="/Users/atognolo/.ivy2/cache/org.javassist/javassist/ivy-3.15.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="3.15.0-GA" rev-constraint-default="3.15.0-GA" rev-constraint-dynamic="3.15.0-GA" callerrev="4.2.3.Final"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="3.15.0-GA" rev-constraint-default="3.15.0-GA" rev-constraint-dynamic="3.15.0-GA" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="javassist" type="jar" ext="jar" status="no" details="" size="648253" time="0" location="/Users/atognolo/.ivy2/cache/org.javassist/javassist/jars/javassist-3.15.0-GA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.common" name="hibernate-commons-annotations">
+			<revision name="4.0.2.Final" status="release" pubdate="20130510154817" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="3410" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/ivy-4.0.2.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="4.0.2.Final" rev-constraint-default="4.0.2.Final" rev-constraint-dynamic="4.0.2.Final" callerrev="4.2.3.Final"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="4.0.2.Final" rev-constraint-default="4.0.2.Final" rev-constraint-dynamic="4.0.2.Final" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="hibernate-commons-annotations" type="jar" ext="jar" status="no" details="" size="81830" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.2.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.javax.persistence" name="hibernate-jpa-2.0-api">
+			<revision name="1.0.1.Final" status="release" pubdate="20110614234226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Unknown License" url="license.txt"/>
+				<metadata-artifact status="no" details="" size="2465" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/ivy-1.0.1.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="4.2.3.Final"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="hibernate-jpa-2.0-api" type="jar" ext="jar" status="no" details="" size="102661" time="0" location="/Users/atognolo/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/jars/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.spec.javax.transaction" name="jboss-transaction-api_1.1_spec">
+			<revision name="1.0.1.Final" status="release" pubdate="20120317134951" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Common Development and Distribution License" url="http://repository.jboss.org/licenses/cddl.txt"/>
+				<license name="GNU General Public License, Version 2 with the Classpath Exception" url="http://repository.jboss.org/licenses/gpl-2.0-ce.txt"/>
+				<metadata-artifact status="no" details="" size="7849" time="0" location="/Users/atognolo/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/ivy-1.0.1.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="4.2.3.Final"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="jboss-transaction-api_1.1_spec" type="jar" ext="jar" status="no" details="" size="25215" time="0" location="/Users/atognolo/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/jars/jboss-transaction-api_1.1_spec-1.0.1.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210103318" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="3725" time="0" location="/Users/atognolo/.ivy2/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="4.2.3.Final"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="/Users/atognolo/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging">
+			<revision name="3.1.0.GA" status="release" pubdate="20120202155717" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jboss.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="GNU Lesser General Public License, version 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="7906" time="0" location="/Users/atognolo/.ivy2/cache/org.jboss.logging/jboss-logging/ivy-3.1.0.GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom"/>
+				<caller organisation="org.hibernate" name="hibernate-core" conf="compile, runtime" rev="3.1.0.GA" rev-constraint-default="3.1.0.GA" rev-constraint-dynamic="3.1.0.GA" callerrev="4.2.3.Final"/>
+				<caller organisation="org.hibernate.common" name="hibernate-commons-annotations" conf="compile, runtime" rev="3.1.0.CR2" rev-constraint-default="3.1.0.CR2" rev-constraint-dynamic="3.1.0.CR2" callerrev="4.0.2.Final"/>
+				<caller organisation="org.hibernate" name="hibernate-entitymanager" conf="compile, runtime" rev="3.1.0.GA" rev-constraint-default="3.1.0.GA" rev-constraint-dynamic="3.1.0.GA" callerrev="4.2.3.Final"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="jar" ext="jar" status="no" details="" size="60768" time="0" location="/Users/atognolo/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.1.0.GA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.1.0.CR2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.1.0.GA"/>
+				<caller organisation="org.hibernate.common" name="hibernate-commons-annotations" conf="compile, runtime" rev="3.1.0.CR2" rev-constraint-default="3.1.0.CR2" rev-constraint-dynamic="3.1.0.CR2" callerrev="4.0.2.Final"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
